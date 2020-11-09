@@ -4,4 +4,7 @@ module.exports = {
   entry: './index.js',
   plugins: [new HtmlWebpackPlugin()],
   mode: 'development',
+  watchOptions: {
+    ignored: /nothingnothing/,
+  }
 };
