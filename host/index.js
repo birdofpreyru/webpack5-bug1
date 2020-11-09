@@ -1,2 +1,2 @@
-const lib = require('lib');
+require('./node_modules/test/index.js')
 console.log('Hello World!');
